@@ -1,0 +1,35 @@
+.input {
+  display: flex;
+  height: 45px;
+  background-color: #424242;
+  color: #eeeeee;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #eeeeee;
+  margin-left: 20px;
+  color: #424242;
+  font-size: 14px;
+}
+
+.button:active {
+  box-shadow: inset -0.3rem -0.1rem 1.4rem #9b9a9a,
+    inset 0.3rem 0.4rem 0.8rem #bec5d0;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: #eeeeee;
+  margin-left: 10px;
+  color: #424242;
+  font-size: 14px;
+}
+
+.reset:active {
+  box-shadow: inset -0.3rem -0.1rem 1.4rem #9b9a9a,
+    inset 0.3rem 0.4rem 0.8rem #bec5d0;
+  cursor: pointer;
+}

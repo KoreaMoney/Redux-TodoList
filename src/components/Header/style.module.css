@@ -1,0 +1,11 @@
+.header {
+  background-color: black;
+  color: white;
+  display: grid;
+  height: 50px;
+  grid-template-columns: repeat(5, 1fr);
+  font-size: 25px;
+  align-content: center;
+  padding-left: 20px;
+  
+}

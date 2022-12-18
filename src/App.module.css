@@ -1,0 +1,19 @@
+body {
+  min-width: 40em;
+  background-color: azure;
+  white-space: pre-line;
+}
+
+.footer {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 130px;
+  font-size: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}

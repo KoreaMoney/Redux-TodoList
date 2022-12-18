@@ -1,0 +1,14 @@
+.todolist {
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.active {
+  margin-left: 20px;
+  border-bottom: 2px solid rgb(45, 44, 44);
+  width: 150px;
+  padding-bottom: 5px;
+  box-shadow: 0 4px 4px -4px black;
+}
